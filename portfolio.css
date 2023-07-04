@@ -1,0 +1,272 @@
+body {
+  font-family: sans-serif, arial, helvetica;
+}
+/* ...header... */
+#headcontainer {
+  background-color: #363543;
+  /* height: 800px; */
+}
+nav {
+  font-size: larger;
+}
+#fixednav {
+  position: sticky;
+}
+
+#logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.nav-item {
+  margin-left: 175px;
+}
+.links {
+  color: #eafcfb;
+}
+#myname {
+  font-size: 40px;
+  margin-top: 150px;
+  transform: translatey(17px);
+}
+#malek {
+  font-size: 70px;
+}
+#line {
+  background-color: gold;
+  width: 300px;
+  height: 10px;
+  transform: translatex(80px);
+  border-radius: 3px;
+}
+#namedescribtion {
+  font-size: 30px;
+  width: 350px;
+  transform: translatex(80px);
+}
+#name-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: space-around;
+}
+#myphoto {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+#mynamediv {
+  color: #eafcfb;
+}
+#myimagesdiv {
+}
+
+/* ...body... */
+
+#bodycontainer {
+  background-color: #282834;
+}
+/* ....edu.... */
+
+#eduname {
+  color: #eafcfb;
+  text-align: center;
+}
+#eduword {
+  font-size: 30px;
+}
+#eduname .chem {
+  font-size: 25px;
+}
+
+#eduimg {
+  display: flex;
+  justify-content: space-around;
+}
+
+#eduimg img {
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#eduinfo {
+  color: #eafcfb;
+  text-align: center;
+}
+
+/* ....Courses.... */
+
+#coursesword {
+  color: #eafcfb;
+  font-size: 30px;
+  text-align: center;
+}
+#coursescards {
+  color: #eafcfb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+#coursescards img {
+  width: 80%;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#orange {
+  width: 30%;
+}
+
+#elzero {
+  width: 30%;
+}
+
+#skillsword {
+  color: #eafcfb;
+  font-size: 30px;
+  text-align: center;
+}
+#skillscards {
+  color: #eafcfb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.skill {
+  display: flex;
+  flex-direction: row;
+}
+.skill img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.info {
+  margin-left: 15px;
+  margin-top: 22px;
+}
+
+#languagesword {
+  color: #eafcfb;
+  font-size: 30px;
+  text-align: center;
+}
+#languagescards {
+  color: #eafcfb;
+}
+#arabic {
+  width: 65%;
+  margin-left: 200px;
+}
+#english {
+  width: 65%;
+  margin-left: 200px;
+}
+#projectsword {
+  color: #eafcfb;
+  font-size: 30px;
+  text-align: center;
+}
+
+#projectscards {
+  color: #eafcfb;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#chemprojectname {
+  font-size: 25px;
+  text-align: center;
+}
+#chemproject {
+  width: 40%;
+}
+#chemprojectimg {
+  position: relative;
+  width: 40%;
+}
+#chemprojectimg img {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+}
+.oil {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+#chemprojectinfo {
+  margin-top: 300px;
+  text-align: center;
+}
+#booknook {
+  width: 40%;
+}
+#booknookname {
+  font-size: 25px;
+  text-align: center;
+}
+#booknook img {
+  width: 300px;
+  height: 250px;
+  margin-left: 100px;
+  border-radius: 15px;
+}
+#booknookinfo {
+  text-align: center;
+  margin-top: 32px;
+}
+#referencesword {
+  color: #eafcfb;
+  font-size: 30px;
+  text-align: center;
+}
+#referencescarts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cards {
+  color: #eafcfb;
+  text-align: center;
+  background-color: #282834;
+}
+.cards img {
+  border-radius: 15px;
+  height: 300px;
+}
+@media screen and (max-width: 480px) {
+    #mynamediv{
+        width: 100%;
+    margin-left: 40px;
+       
+    }
+    #mynamediv p{
+         font-size: 15px;
+         margin-left: 1px;
+         
+    }
+    #mynamediv h1{
+        font-size: 30px;
+        
+    }
+    #myimagesdiv{
+        width: 100%;
+
+    }
+    #myphoto{
+        width: 100%;
+        height: 200px;
+    }
+    #line {
+        width: 100px;
+        height: 5px;
+        transform: translatex(20px);
+        border-radius: 3px;}
+}
