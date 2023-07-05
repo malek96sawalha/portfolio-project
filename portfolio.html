@@ -9,10 +9,7 @@
     <title>M S portfolio</title>
     <link rel="stylesheet" href="./portfolio.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
     <link
       rel="stylesheet"
@@ -40,10 +37,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item color-me">
-                <a class="links" href="#">Home </a>
+                <a class="links" href="#logo">Home </a>
               </li>
               <li class="nav-item">
-                <a class="links" href="#">Education</a>
+                <a class="links" href="#eduword">Education</a>
               </li>
               <li class="nav-item">
                 <img src="./images/logo.PNG" alt="logo" id="logo" />
@@ -53,7 +50,7 @@
                 <a class="links" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="links" href="#">References</a>
+                <a class="links" href="#referencesword">References</a>
               </li>
             </ul>
           </div>
@@ -68,10 +65,12 @@
           <div id="namedescribtion">
             <p>A full stack wep development trainee at Orange Coding Academy</p>
             <br />
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-            <br />
-            <button>contact me</button>
+            
+            <a href="https://www.linkedin.com/in/malek-sawalha-064a56279/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/malek96sawalha"><i class="fa-brands fa-github"></i></a>
+            <br>
+            <br/>
+            <button type="button" onclick=""><a href="#contact me">contact me</a></button>
           </div>
           <br /><br />
         </div>
@@ -91,8 +90,8 @@
         <br />
         <div id="eduname">
           <p id="eduword">Education</p>
-          <p class="chem">Chemistry</p>
-          <p class="chem">2020</p>
+          <p id="chem">Chemistry-2020</p>
+          <!-- <p class="chem">2020</p> -->
         </div>
 
         <div id="edu">
@@ -157,11 +156,9 @@
               </div>
             </div>
             <div class="skill">
+             
               <div>
-                <img
-                  src="./images/soft-skills-training-for-employees111.jpg"
-                  alt="soft skills"
-                />
+                <img src="./images/soft-skills-training-for-employees111.jpg"alt="soft skills"/>
               </div>
               <div class="info">
                 <p>Communication</p>
@@ -266,18 +263,56 @@
                 <br /><br />
                 <h3>Hala Hamdan</h3>
                 <p>Lead Trainer at Orange Coding Academy</p>
+                <a href="https://www.linkedin.com/in/hala-hamdan-927941163/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.gt.halla.hamdan@orange.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                
               </div>
               <div class="cards">
                 <img src="./images/1678305859430.jpg" alt="Hala" />
                 <br /><br />
                 <h3>Hala Obeidat</h3>
                 <p>Job Coach Specialist at Orange Coding Academy</p>
+                <a href="https://www.linkedin.com/in/hala-obeidat12/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div id="contact">
+        <h3 id="contact me">Contact me</h3>
+        <br>
+        <input type="text" placeholder="Name">
+        <br><br>
+        <input type="email" placeholder="Email">
+        <br><br>
+        <input type="text" placeholder="Your massage" id="textarea">
+        <br><br>
+        <p>Or call me at : <span>+962 798425191</span></p>
+        <br><br>
+        <button>submit</button>
+        <br><br>
+      </div>
+      <h4>follow me</h4>
+      <br>
+      <div id="follow">
+        <a href="http://www.maleksawalha1996@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100003204412380&_rdc=3&_rdr" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/mk_sawalha/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://twitter.com/sawalhamalik96" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        
+        
+        
+        
+
+
+      </div>
+      
+      <p id="rights">Copyright ©2023 by <span>Malek sawalha</span> All rights reserved</p>
+    
+    
     </div>
+
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
